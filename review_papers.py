@@ -19,10 +19,7 @@ from find_and_download import find_basis_paper
 
 def receive_user_input():
 
-    find_basis_paper()
-
     user_input = {}
-    print()
 
     paper_name = input("Enter the file name of the paper you want to review: ")
     user_input['name'] = paper_name
