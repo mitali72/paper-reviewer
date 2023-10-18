@@ -33,7 +33,7 @@ def receive_user_input():
     review_para = list(map(int,review_para.split()))
     user_input['review_para'] = review_para
 
-    review_actor = input("Choose role of reviewer (advocate, critque or neutral): ")
+    review_actor = input("Choose role of reviewer (advocate, critique or neutral): ")
     user_input['review_actor'] = review_actor
         # user_input['review_actor'] = "neutral"
         
